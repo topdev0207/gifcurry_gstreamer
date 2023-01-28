@@ -43,7 +43,7 @@ Become a GIF master :muscle: with Gifcurry!
 :ballot_box_with_check: That presentation slide could use some animation? Gifcurry.  
 :ballot_box_with_check: Video doesn't auto play on iOS? Gifcurry.  
 :ballot_box_with_check: Time to promote your indie game? Gifcurry.  
-:ballot_box_with_check: Need to add subtitles to a video? Gifcurry.  
+:ballot_box_with_check: Need to add subtitles to a video? Gifcurry.
 
 Gifcurry comes in handy :wrench: for all sorts of scenarios.
 
@@ -175,35 +175,35 @@ Here's an example file:
 
 ```yaml
 - text: This is an example.
-  fontFamily:   Sans
-  fontStyle:    Oblique
-  fontStretch:  Normal
-  fontWeight:   30
-  fontSize:     800
-  origin:       NorthWest
+  fontFamily: Sans
+  fontStyle: Oblique
+  fontStretch: Normal
+  fontWeight: 30
+  fontSize: 800
+  origin: NorthWest
   xTranslation: 0.0
   yTranslation: 0.0
-  rotation:     20
-  startTime:    5.000
-  endTime:      8.000
-  outlineSize:  7
+  rotation: 20
+  startTime: 5.000
+  endTime: 8.000
+  outlineSize: 7
   outlineColor: rgba(1,100,10,1.0)
-  fillColor:    rgba(255,255,0,0.0)
+  fillColor: rgba(255,255,0,0.0)
 - text: This is another example.
-  fontFamily:   Serif
-  fontStyle:    Italic
-  fontStretch:  Condensed
-  fontWeight:   30
-  fontSize:     800
-  origin:       Center
+  fontFamily: Serif
+  fontStyle: Italic
+  fontStretch: Condensed
+  fontWeight: 30
+  fontSize: 800
+  origin: Center
   xTranslation: 10.0
   yTranslation: 11.0
-  rotation:     20
-  startTime:    5.000
-  endTime:      8.000
-  outlineSize:  7
+  rotation: 20
+  startTime: 5.000
+  endTime: 8.000
+  outlineSize: 7
   outlineColor: rgb(1,11,100)
-  fillColor:    rgba(255,0,0,0.0)
+  fillColor: rgba(255,0,0,0.0)
 ```
 
 `fontStyle` can be:
@@ -353,22 +353,22 @@ $HOME/.local/bin/gifcurry_gui
 
 ### To run Gifcurry. :running:
 
-* [GTK+ >= 3.10](http://www.gtk.org/download/index.php)
-* [FFmpeg >= 2.8.15](https://www.ffmpeg.org/download.html)
-* [GStreamer >= 1.0](https://gstreamer.freedesktop.org/download/)
-    * [GStreamer Plugins](https://gstreamer.freedesktop.org/modules/)
-* [ImageMagick >= 6](http://www.imagemagick.org/script/download.php)
+- [GTK+ >= 3.10](http://www.gtk.org/download/index.php)
+- [FFmpeg >= 2.8.15](https://www.ffmpeg.org/download.html)
+- [GStreamer >= 1.0](https://gstreamer.freedesktop.org/download/)
+  - [GStreamer Plugins](https://gstreamer.freedesktop.org/modules/)
+- [ImageMagick >= 6](http://www.imagemagick.org/script/download.php)
 
 ### To build Gifcurry. :construction_worker:
 
-* [GObject Introspection](https://wiki.gnome.org/action/show/Projects/GObjectIntrospection)
-* [Haskell Stack](https://docs.haskellstack.org/en/stable/README/)
+- [GObject Introspection](https://wiki.gnome.org/action/show/Projects/GObjectIntrospection)
+- [Haskell Stack](https://docs.haskellstack.org/en/stable/README/)
 
 ## What is the license? :scroll:
 
 For license information, see [LICENSE](LICENSE).
 
-## Who wrote Gifcurry? :copyright:
+## Who wrote Gifcurry? :copyright::
 
 (C) 2016 David Lettier  
 [lettier.com](http://www.lettier.com/)
